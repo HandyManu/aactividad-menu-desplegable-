@@ -22,4 +22,14 @@
         android:name="manuel.ortega.menudesplegable2.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_codigos"
+        android:name="manuel.ortega.menudesplegable2.Fragment_codigos"
+        android:label="Codigos"
+        tools:layout="@layout/fragment_codigos" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="manuel.ortega.menudesplegable2.Fragment_perfil"
+        android:label="perfil"
+        tools:layout="@layout/fragment_perfil" />
 </navigation>
