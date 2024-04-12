@@ -8,19 +8,19 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="manuel.ortega.menudesplegable2.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="incio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="manuel.ortega.menudesplegable2.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="informacion"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="manuel.ortega.menudesplegable2.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="notas"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/fragment_codigos"
@@ -29,7 +29,6 @@
         tools:layout="@layout/fragment_codigos" />
     <fragment
         android:id="@+id/fragment_perfil"
-        android:name="manuel.ortega.menudesplegable2.Fragment_perfil"
         android:label="perfil"
         tools:layout="@layout/fragment_perfil" />
 </navigation>

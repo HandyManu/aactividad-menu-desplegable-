@@ -25,6 +25,6 @@
         <item
             android:id="@+id/fragment_codigos"
             android:icon="@drawable/ic_perfil"
-            android:title=" Perfil" />
+            android:title="Perfil" />
     </group>
 </menu>
